@@ -1,7 +1,7 @@
 function rollDice() {
     const diceElement = document.getElementById('dice');
     const resultElement = document.getElementById('result');
-    resultElement.textContent = "Rolling..........";
+    resultElement.textContent = "Rolling..........!!!";
 
     const randomNumber = Math.floor(Math.random() * 6) + 1;
 
